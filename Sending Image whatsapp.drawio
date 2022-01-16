@@ -1,1 +1,171 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T16:33:57.170Z" agent="5.0 (Windows)" etag="4h7gyoO3VH_YOUao6K9a" version="15.5.9" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-16T19:21:53.764Z" agent="5.0 (Windows)" etag="kwrg4LW74An1HOGeHeI-" version="15.5.9" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="782" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Chat Server A" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="10" width="60" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="1. Sends image &#xa;file to Bob" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;startFill=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="60" as="sourcePoint" />
+            <mxPoint x="30" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Transient File Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" parent="1" vertex="1">
+          <mxGeometry x="230" y="10" width="70" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="2. Uploads the image &#xa;file to the server" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="80" as="sourcePoint" />
+            <mxPoint x="265" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="3. Returns the image file URL" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="100" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;dashed=1;strokeColor=#A30000;" edge="1" parent="1" source="uhG0LcDK4NJh1qfMVqmM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-1" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#A30000;" edge="1" parent="1" source="uhG0LcDK4NJh1qfMVqmM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-2" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-5" value="Chat Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="60" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-6" value=":Transient Server B" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="425" y="10" width="85" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=none;" vertex="1" parent="uhG0LcDK4NJh1qfMVqmM-6">
+          <mxGeometry x="-250" y="240" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-26" value="Remove the transient message reference" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="uhG0LcDK4NJh1qfMVqmM-6">
+          <mxGeometry x="-129.5" y="240" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-27" value="Remove the transient message reference" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="uhG0LcDK4NJh1qfMVqmM-6">
+          <mxGeometry x="-9" y="280" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-21" value="Remove the transient message reference" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="uhG0LcDK4NJh1qfMVqmM-6">
+          <mxGeometry x="-250" y="280" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-36" value="&lt;b&gt;&lt;span style=&quot;background-color: rgb(204 , 204 , 204)&quot;&gt;Remove Transient message references&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="uhG0LcDK4NJh1qfMVqmM-6">
+          <mxGeometry x="-250" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-7" value=":Transient Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="60" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-8" value=":Chat Server B" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="670" y="10" width="60" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-10" value="4. Sends image &#xa;URL back to Alice" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="120" as="sourcePoint" />
+            <mxPoint x="60" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-11" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Image gets displayed on Alice&#39;s mobile with the status as SENT&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-12" value="5. Makes the request to the server &#xa;to which Bob is connected to" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="130" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-13" value="6. Returns the information that Bob is offline" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.483;exitY=0.351;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uhG0LcDK4NJh1qfMVqmM-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="160" as="sourcePoint" />
+            <mxPoint x="150" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-14" value="7. Forwards the image URL to the transient server partition corresponding to Bob" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.467;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="180" as="sourcePoint" />
+            <mxPoint x="468" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-16" value="8. Stores the image URL &#xa;to the transient server" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468" y="186" as="sourcePoint" />
+            <mxPoint x="570" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-17" value="9. Bob establishes connection &#xa;with the chat server" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;entryX=0.5;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uhG0LcDK4NJh1qfMVqmM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="190" as="sourcePoint" />
+            <mxPoint x="700" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-18" value="10. Fetches Bob&#39;s transient messages while Bob is offline" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468" y="210" as="sourcePoint" />
+            <mxPoint x="700" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-19" value="11. Forwards the transient messagescontaining the image URL" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=0;entryX=0.467;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uhG0LcDK4NJh1qfMVqmM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="237" as="sourcePoint" />
+            <mxPoint x="700" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-20" value="12. Makes the request to fetch the image content" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=1;entryX=0.483;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.486;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="uhG0LcDK4NJh1qfMVqmM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="265" as="sourcePoint" />
+            <mxPoint x="570" y="287" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-25" value="The image gets displayed to Bob" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-31" value="13. Sends ACK for Alice&#39;s image message" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="700" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-32" value="14. Fetches information about the server to which Alice is connected" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="339" as="sourcePoint" />
+            <mxPoint x="700" y="339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-34" value="15. Forward ACK to the Alice&#39;s server" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=0;align=center;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374.02" y="349.15999999999997" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhG0LcDK4NJh1qfMVqmM-35" value="15. Fetches the ACK during &#xa;the long polling operation" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=0;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="380" as="sourcePoint" />
+            <mxPoint x="150" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
