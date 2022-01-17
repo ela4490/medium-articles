@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T22:32:39.534Z" agent="5.0 (Windows)" etag="XYfE4Q-wB6_s0aA8kEUQ" version="15.5.9" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:47:54.975Z" agent="5.0 (Windows)" etag="uQSdXgQRBl8YJDsDM3f-" version="15.5.9" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="782" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":User Feed Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="10" width="90" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":User Feed Cassandra Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" parent="1" vertex="1">
+          <mxGeometry x="280" y="10" width="90" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="2. Fetch the feeds for user from non-celebrity users" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;exitX=0.5;exitY=0.382;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="122" as="sourcePoint" />
+            <mxPoint x="325" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="3. Fetch the list of celebrities the user follows" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.543;exitY=0.482;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=block;startFill=1;" parent="1" source="Oa9Gcn-j62gea2nquGGI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="200" as="sourcePoint" />
+            <mxPoint x="165" y="199" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="Oa9Gcn-j62gea2nquGGI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-3" value=":Followers Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="10" width="70" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-4" value=":User Activity Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#A30000;" vertex="1" parent="1">
+          <mxGeometry x="670" y="10" width="90" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="1. Makes the request &#xa;to fetch the feed" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="79" as="sourcePoint" />
+            <mxPoint x="161.5" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-7" value="3. Fetch the list of celebrities the user follows" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;startArrow=block;startFill=1;entryX=0.511;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="251" as="sourcePoint" />
+            <mxPoint x="175" y="209" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-8" value="&lt;span style=&quot;background-color: rgb(204 , 204 , 204)&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Loop&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-11" value="&lt;b&gt;[For all the celebrities the user follows]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-12" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="650" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-13" value="&lt;span style=&quot;background-color: rgb(204 , 204 , 204)&quot;&gt;&lt;b&gt;Par&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-14" value="&lt;b&gt;[thread1]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-15" value="&lt;b&gt;[thread2]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="167" as="sourcePoint" />
+            <mxPoint x="100" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-18" value="5. Merge the feed from celebrity and&#xa;non-celebrity users based on time" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;startFill=0;entryX=0.511;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.522;exitY=0.844;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="-0.251" y="9" relative="1" as="geometry">
+            <mxPoint x="270" y="360" as="sourcePoint" />
+            <mxPoint x="80" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="339" />
+              <mxPoint x="250" y="367" />
+              <mxPoint x="240" y="367" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa9Gcn-j62gea2nquGGI-19" value="6. Returns the feed to the user" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;startFill=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="42" y="89" as="sourcePoint" />
+            <mxPoint x="20" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
